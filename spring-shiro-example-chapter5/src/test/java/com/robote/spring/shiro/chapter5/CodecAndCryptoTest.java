@@ -240,7 +240,6 @@ public class CodecAndCryptoTest {
         String encrptText = cipherService.encrypt(text.getBytes(), key.getEncoded()).toHex();
         //解密
         String text2 = new String(cipherService.decrypt(Hex.decode(encrptText), key.getEncoded()).getBytes());
-
         Assert.assertEquals(text, text2);
     }
 
