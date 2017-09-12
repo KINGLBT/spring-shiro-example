@@ -9,7 +9,7 @@
 	
 	<context-param>
         <param-name>shiroEnvironmentClass</param-name>
-        <param-value>com.robote.spring.shiro.chapter8.env.MyIniWebEnvironment</param-value><!-- 默认先从/WEB-INF/shiro.ini，如果没有找classpath:shiro.ini -->
+        <param-value>org.apache.shiro.web.env.IniWebEnvironment</param-value><!-- 默认先从/WEB-INF/shiro.ini，如果没有找classpath:shiro.ini -->
     </context-param>
     <context-param>
         <param-name>shiroConfigLocations</param-name>
