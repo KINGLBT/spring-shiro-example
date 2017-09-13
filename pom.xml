@@ -107,5 +107,7 @@
 		<module>spring-shiro-example-chapter5</module>
 		<module>spring-shiro-example-chapter6</module>
 		<module>spring-shiro-example-chapter7</module>
+		<module>spring-shiro-example-chapter8</module>
+		<module>spring-shiro-example-chapter9</module>
 	</modules>
 </project>
